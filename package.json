@@ -1,0 +1,39 @@
+{
+  "name": "circonus-statsd-backend",
+  "version": "0.0.1",
+  "description": "Send metric data from statsd to circonus",
+  "main": "lib/circonus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lyft/circonus-statsd-backend.git"
+  },
+  "keywords": [
+    "circonus",
+    "metrics",
+    "statsd"
+  ],
+  "author": "lyft",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "homepage": "https://www.lyft.com",
+  "bugs": {
+   "url": "https://github.com/lyft/circonus-statsd-backend/issues",
+  },
+  "contributors": [
+   {
+   "name": "Jos Boumans",
+   "email": "jos@dwim.org"
+   },
+   {
+   "name": "Colin Johnson",
+   "email": "colin@lyft.com"
+   },
+   {
+   "name": "Mathias Gug",
+   "email": "mathias@lyft.com"
+   }
+  ]
+}
