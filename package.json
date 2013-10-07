@@ -20,7 +20,7 @@
   "readmeFilename": "README.md",
   "homepage": "https://www.lyft.com",
   "bugs": {
-   "url": "https://github.com/lyft/circonus-statsd-backend/issues",
+   "url": "https://github.com/lyft/circonus-statsd-backend/issues"
   },
   "contributors": [
    {
