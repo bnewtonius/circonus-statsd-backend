@@ -38,3 +38,17 @@ To output additional logging information, add the debug parameter set to true.  
     }
 }
 ```
+
+### Using development versions of Circonus with self-signed certificates
+
+If you are using a develoment version of circonus and you are using a self signed certificate, you may get this error (assuming you have the debug flags set to true):
+
+> Error making circonus request: SELF_SIGNED_CERT_IN_CHAIN
+
+For develoment only, you can set this environment variable prior to starting your statsd daemon
+
+```bash
+export NODE_TLS_REJECT_UNAUTHORIZED="0"
+```
+
+**Do not use this in production. It is unsafe.**

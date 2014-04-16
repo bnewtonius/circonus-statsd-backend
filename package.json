@@ -1,6 +1,6 @@
 {
   "name": "circonus-statsd-backend",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Send metric data from statsd to circonus",
   "main": "lib/circonus.js",
   "scripts": {
@@ -34,6 +34,10 @@
    {
    "name": "Mathias Gug",
    "email": "mathias@lyft.com"
+   },
+   {
+   "name": "Brian Newton",
+   "email": "brian@newtonius.com"
    }
   ]
 }
