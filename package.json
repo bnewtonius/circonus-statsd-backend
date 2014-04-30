@@ -1,6 +1,6 @@
 {
   "name": "circonus-statsd-backend",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Send metric data from statsd to circonus",
   "main": "lib/circonus.js",
   "scripts": {
